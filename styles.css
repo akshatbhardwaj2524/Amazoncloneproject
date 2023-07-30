@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    font-family:arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+}
+.nav-logo{
+    height: 50px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+}

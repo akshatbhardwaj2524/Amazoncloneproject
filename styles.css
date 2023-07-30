@@ -5,11 +5,22 @@
 }
 .navbar{
     height: 60px;
+    background-color: #1c1c1c;
+    color: white;
 }
 .nav-logo{
     height: 50px;
+    width: 110px;
 }
 .logo{
     background-image: url("amazon_logo.png");
+    background-size: cover;
     height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
 }

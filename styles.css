@@ -192,7 +192,7 @@ span{
     margin-right: 1rem;
 }
 
-.box p {
+.box a {
     color:#007185;
 }
 
@@ -219,14 +219,14 @@ footer{
 .foot-panel2{
     background-color: #222f3b;
     color: white;
-    height: 275px;
+    height: 375px;
     display: flex;
-    align-items:center;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 
 ul{
-    margin-top: 25px;
+    margin-top: 75px;
 }
 
 ul a{
@@ -267,3 +267,19 @@ ul a{
 .copyright{
     padding-top: 5px;
 }
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: purple;
+  }
+  
+a:hover {
+    text-decoration: underline;
+  }
+  
+a:active {
+    text-decoration: underline;
+  }
